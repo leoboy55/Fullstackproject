@@ -1,0 +1,13 @@
+.animeBoxFilter {
+    width: 280px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+    border: solid 1px black;
+    margin: 3px;
+    overflow: hidden;
+    transition: 2s;
+}
+.animeBoxFilter :hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,167 @@
+* {
+margin: 0;
+    padding: 0;
+}
+.textcontainer {
+    background-color: white;
+    width: 220px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.animeBox {
+    width: 280px;
+    background-color: gray;
+    box-sizing: border-box;
+    float: left;
+    border: solid 1px black;
+    margin: 3px;
+    overflow: hidden;
+    transition: 2s;
+}
+.animeBox :hover{
+    transform: scale(1.1);
+}
+
+.ratingcontainer {
+    background-color: white;
+    width: 100%;
+    height: 25px;
+    box-sizing: border-box;
+    margin-bottom:  5px;
+}
+#deleteButton{
+    visibility: unset;
+    margin: 15px 0 0 120px;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    left: 100px;
+    background-color: grey;
+}
+.genre {
+    color: red;
+}
+#genre {
+    color: black;
+}
+option{
+    color: black;
+}
+img{
+    width: 280px;
+    height: 200px;
+}
+span:hover{
+    cursor: pointer;
+}
+#addButton{
+    margin: 15px 0 0 120px;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    left: 100px;
+    background-color: grey;
+    box-sizing: border-box;
+}
+.error {
+    background-color: white;
+    border: black solid 5px;
+    box-sizing: border-box;
+    z-index: 1;
+    width: 260px;
+    height: 52px;
+    position: fixed;
+    top: 40px;
+    left: 250px;
+}
+.error header {
+    color: red;
+    font-weight: bold;
+    font-size: 28px;
+}
+.error p {
+    color:  black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.noError {
+    background-color: white;
+    border: black solid 5px;
+    box-sizing: border-box;
+    z-index: 1;
+    width: 300px;
+    height: 52px;
+    position: fixed;
+    top: 40px;
+    left: 250px;
+}
+.noError header {
+    color: green;
+    font-weight: bold;
+    font-size: 28px;
+}
+.noError p {
+    color:  black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.noError button {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 0;
+    position: absolute;
+    background-color: Grey;
+}
+button {
+    background: none;
+    top: 10px;
+}
+.favList {
+    float: right;
+    color: red;
+    width: 40px;
+    height: 40px;
+}
+.starRatingBtn {
+    all: unset;
+}
+#textBox2 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 550px;
+    height: 150px;
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+/* phone style */
+@media screen and (max-width: 751px) and (min-width: 320px) {
+    #wrapperFilter{
+        position: absolute;
+        left: 340px;
+        overflow: hidden;
+    }
+    #wrapper2{
+position: relative;
+        top: 40px;
+        overflow: hidden;
+    }
+    #wrapper{
+        overflow: hidden;
+    }
+    #textBox2 {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        width: 300px;
+        height: 100px;
+        background-color: red;
+        color: white;
+        font-size: 25px;
+    }
+}
+
+
+

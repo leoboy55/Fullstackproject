@@ -1,0 +1,9 @@
+*{
+ color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background-image: url("../src/backgroundimage2.jpg");
+}

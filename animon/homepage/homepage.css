@@ -1,0 +1,138 @@
+/* desktop style */
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    position: absolute;
+    top: 75%;
+    left: 35%;
+    width: 500px;
+    color: black;
+}
+.card{
+    position: absolute;
+    width: 660px;
+    height: 360px;
+    top: 150px;
+    left: 450px;
+    border-radius: 20px;
+    align-items: center;
+    transition: 0.5s;
+    overflow: hidden;
+    background: black;
+    cursor: pointer;
+    display: flex;
+}
+iframe{
+    position: relative;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    height: 300px;
+}
+#searchresult{
+color: white;
+    position: absolute;
+    top: 610px;
+    left: 540px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+a text {
+  text-decoration: none;
+}
+/* Ipad style */
+@media screen and (max-width: 1024px) and (min-width: 751px) {
+    .card {
+        position: absolute;
+        width: 500px;
+        height: 300px;
+        top: 100px;
+        left: 150px;
+        border-radius: 20px;
+        transition: 0.5s;
+        overflow: hidden;
+        background: black;
+        cursor: pointer;
+    }
+    iframe{
+        position: relative;
+        top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 450px;
+    }
+    input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+        position: absolute;
+        top: 65%;
+        left: 20%;
+        width: 500px;
+        color: black;
+    }
+    #searchresult {
+        color: white;
+        position: absolute;
+        top: 460px;
+        left: 160px;
+        background-color: black;
+    }
+}
+
+/* phone style */
+@media screen and (max-width: 751px) and (min-width: 320px) {
+
+    .card {
+        position: absolute;
+        width: 330px;
+        height: 200px;
+        top: 100px;
+        left: 80px;
+        border-radius: 20px;
+        transition: 0.5s;
+        overflow: hidden;
+        background: black;
+        cursor: pointer;
+    }
+
+    #searchresult {
+        color: white;
+        position: absolute;
+        top: 400px;
+        left: 12px;
+        background-color: black;
+    }
+    input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+        position: absolute;
+        top: 55%;
+        left: 30%;
+        width: 200px;
+        color: black;
+    }
+    iframe{
+        position: relative;
+        top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+        width: 230px;
+    }
+}

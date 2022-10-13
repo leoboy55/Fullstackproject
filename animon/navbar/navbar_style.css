@@ -1,0 +1,117 @@
+/* desktop style */
+.container1 {
+        background-color: black;
+    }
+
+    .container1 a:hover {
+        color: deepskyblue;
+    }
+
+    #accountbtn {
+        background-color: black;
+        border: none;
+    }
+
+    #dropDownMenu {
+        position: absolute;
+        left: 1220px;
+        width: 130px;
+        background-color: black;
+        visibility: hidden;
+    }
+
+    #1 {
+        visibility: hidden;
+    }
+
+    #2 {
+        visibility: hidden;
+    }
+
+    #logo {
+        width: 40px;
+        height: 40px;
+    }
+#home {
+    position: absolute;
+    left: 150px;
+}
+#animeList {
+    position: absolute;
+    left: 400px;
+}
+#about {
+    position: absolute;
+    left: 750px;
+}
+#register1 {
+    position: absolute;
+    left: 1200px;
+}
+#account {
+    position: absolute;
+    left: 1200px;
+}
+
+/* Ipad style */
+@media screen and (max-width: 1024px) and (min-width: 751px) {
+    #home {
+        position: absolute;
+        left: 50px;
+    }
+    #animeList {
+        position: absolute;
+        left: 170px;
+    }
+    #about {
+        position: absolute;
+        left: 350px;
+    }
+    #register1{
+        position: absolute;
+        left: 520px;
+    }
+    #account {
+        position: absolute;
+        left: 520px;
+    }
+    #dropDownMenu {
+        position: absolute;
+        top: 40px;
+        left: 540px;
+        z-index: 1;
+    }
+}
+
+/* phone style */
+@media screen and (max-width: 751px) and (min-width: 320px) {
+  #home {
+      position: absolute;
+      left: 50px;
+  }
+    #animeList {
+        position: absolute;
+        left: 200px;
+    }
+    #about {
+        position: absolute;
+        top: 40px;
+        left: 50px;
+    }
+    #register1 {
+        position: absolute;
+        top: 40px;
+        left: 200px;
+    }
+    #account {
+        position: absolute;
+        top: 40px;
+        left: 200px;
+    }
+    #dropDownMenu {
+        position: absolute;
+        top: 40px;
+        left: 360px;
+        z-index: 1;
+    }
+}
